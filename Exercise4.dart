@@ -6,7 +6,7 @@ import 'dart:io';
 void main() {
   print("Enter the number to find the list of Divisors:");
   int? number = int.parse(stdin.readLineSync() ?? '0');
-  for (int i = 0; i < number; i++) {
+  for (int i = 0; i <= number; i++) {
     try {
       if (number % i == 0) {
         print(i);
